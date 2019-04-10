@@ -100,7 +100,7 @@ server.listen(config.port, ()=> {
     });
 
     server.get('/teste', (req, resp, next)=>{
-        console.log(req);
+        console.log(req + 'teste');
         ignoreTrailingSlash:true
         resp.json ({message: 'Funciona ?'})
     })
