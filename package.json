@@ -1,0 +1,20 @@
+{
+  "name": "node-test",
+  "version": "1.0.0",
+  "description": "api criada com node.js e restify",
+  "main": "index.js",
+  "author": "Felipe Vialle",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "5.3.15",
+    "mongoose-string-query": "0.2.5",
+    "mongoose-timestamp": "0.6.0",
+    "restify": "7.3.0",
+    "restify-errors": "6.1.1",
+    "restify-plugins": "1.6.0",
+    "restify-router": "0.5.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
