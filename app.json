@@ -1,0 +1,11 @@
+{
+    "name": "Node Test Vialle",
+    "description": "This app does one little thing, and does it well.",
+    "keywords": [
+      "productivity",
+      "Node"
+    ],
+    "website": "https://small-sharp-tool.com/",
+    "repository": "https://github.com/felipevialle/nodeTest",
+    "image": "heroku/nodejs"
+  }
