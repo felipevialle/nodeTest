@@ -1,11 +1,15 @@
+/**
+ * Frameworks
+ */
 const restify = require('restify');
 const config = require('./config')
 const mongoose = require('mongoose');
+
+
 /**
  * Model Schema
  */
 const Aluno = require('./model/Aluno')
-
 
 /**
   * Inicializa o servidor
@@ -25,7 +29,7 @@ server.listen(config.port, ()=> {
     mongoose.Promise = global.Promise;
     mongoose.connect(config.db.uri, { useNewUrlParser: true });
 
-	const db = mongoose.connection
+		const db = mongoose.connection
 
     db.on('error', (err) => {
 	    console.error(err)
