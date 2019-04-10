@@ -29,7 +29,7 @@ server.listen(config.port, ()=> {
     mongoose.Promise = global.Promise;
     mongoose.connect(config.db.uri, { useNewUrlParser: true });
 
-		herokuconst db = mongoose.connection
+		const db = mongoose.connection
 
     db.on('error', (err) => {
 	    console.error(err)
